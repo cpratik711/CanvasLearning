@@ -11,7 +11,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val myView = MyView(this)
-        linearLayout.addView(myView)
+        linearLayout.addView(myView);
+        val hello = "This is the first commit"
 
     }
 }
